@@ -14,16 +14,16 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RubenVerborgh/SPARQL.js.git"
+    "url": "https://github.com/chrvog/SPARQL.js.git"
   },
   "bugs": {
-    "url": "https://github.com/RubenVerborgh/SPARQL.js/issues"
+    "url": "https://github.com/chrvog/SPARQL.js/issues"
   },
   "main": "./sparql.js",
   "bin": "bin/sparql-to-json",
   "scripts": {
     "test": "./build;./node_modules/mocha/bin/mocha",
-    "prepublish": "./build"
+    "preinstall": "./build"
   },
   "engines": {
     "node": ">=0.10.0"
